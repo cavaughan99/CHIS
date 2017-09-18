@@ -1,1 +1,1 @@
-# CHIS-exercise-R-tutorial
+# CHIS-R
