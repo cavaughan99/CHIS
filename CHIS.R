@@ -1,5 +1,5 @@
 
-##CHIS exercise in DataCamp
+##CHIS data
 # Explore the dataset with summary and str
 summary(adult)
 str(adult)
@@ -30,8 +30,6 @@ adult$RACEHPR2 <- factor(adult$RACEHPR2, labels = c("Latino",
 # Relabel the BMI categories variable:
 adult$RBMI <- factor(adult$RBMI, labels = c("Under-weight", 
                                             "Normal-weight", "Over-weight", "Obese"))
-
-# The dataset adult is available
 
 # The color scale used in the plot
 BMI_fill <- scale_fill_brewer("BMI Category", palette = "Reds")
